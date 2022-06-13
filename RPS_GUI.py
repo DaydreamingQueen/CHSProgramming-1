@@ -34,12 +34,13 @@ def determine_game_result(human_choice):
         comp_score += 1
     display_game_result(human_choice, comp_choice, display_winner)
     
-    if human_choice == 'rock':
-        comp_choice.append('paper')
-    elif human_choice == 'paper':
-        comp_choice.append('scissors')
-    else:
-        comp_choice.append('rock')
+#     this doesn't work yet. it's supposed to add options to the comp_choice list
+#     if human_choice == 'rock':
+#         comp_choice.append('paper')
+#     elif human_choice == 'paper':
+#         comp_choice.append('scissors')
+#     else:
+#         comp_choice.append('rock')
     
    
 
